@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blugrau"
+version = "1.0.0"
+description = "BluGrAu: blueprint graph augmentation for brain graphs"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scipy", "networkx", "matplotlib", "scikit-learn", "torch", "torch_geometric"]
+
+[tool.setuptools]
+packages = ["blugrau"]
